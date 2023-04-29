@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: Outfit;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  padding: 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.summary-text {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  width: 260px;
+  margin-bottom: 12px;
+}
+
+.instructions {
+  color: hsl(220, 15%, 55%);
+  width: 260px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
