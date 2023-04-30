@@ -2,4 +2,4 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
-Link: https://frontend-mentor-pi-khaki.vercel.app/
+Link: https://order-summary-nine-phi.vercel.app/
