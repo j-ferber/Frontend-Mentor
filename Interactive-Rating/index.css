@@ -1,0 +1,151 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Overpass;
+}
+
+p, h1, h2 {
+  margin: 0;
+}
+
+.container {
+  background-color: hsla(213, 19%, 18%, .6);
+  width: 500px;
+  border-radius: 40px;
+  padding: 45px;
+}
+
+.icon-container {
+  background-color: hsla(216, 12%, 54%, .1); 
+  width: 75px;
+  height: 75px; 
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.star-icon {
+  height: 20px;
+}
+
+.question {
+  color: white;
+  font-weight: 500;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.feedback-text {
+  color: hsl(217, 12%, 63%);
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 35px;
+}
+
+.rating-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.numbers {
+  color: hsl(217, 12%, 63%);
+  background-color: hsla(216, 12%, 54%, .1);
+  height: 75px;
+  width: 75px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: Overpass;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 4px;
+  font-weight: 700;
+  transition: background-color .25s, color .25s;
+}
+
+.numbers:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.js-numbers {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.js-numbers:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  font-family: Overpass;
+  padding: 20px 0px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color .25s, color .25s;
+}
+
+.submit-button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.thank-you-container {
+  width: 500px;
+  background-color: hsla(213, 19%, 18%, .6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 45px;
+}
+
+.thank-you-image {
+  height: 150px;
+  margin-bottom: 45px;
+}
+
+.total-rating {
+  background-color: hsla(216, 12%, 54%, .1);
+  color: hsla(25, 97%, 53%, .7);
+  padding: 10px 35px;
+  font-size: 22px;
+  border-radius: 50px;
+  margin-bottom: 45px;
+  padding-top: 12px;
+}
+
+.thank-you-header {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.thank-you-text {
+  font-size: 22px;
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
