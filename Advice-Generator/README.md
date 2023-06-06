@@ -2,4 +2,4 @@
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
-Link: [https://astonishing-kelpie-2bf483.netlify.app/]
+Link: https://astonishing-kelpie-2bf483.netlify.app/
